@@ -1,0 +1,11 @@
+
+CLASSES = \
+		Lox.class
+
+all:V: classes
+
+classes: $CLASSES
+
+%.class: 
+	javac $stem.java
+
